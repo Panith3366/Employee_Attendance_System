@@ -84,7 +84,7 @@ Password: employee123
 
 ## 📁 Project Structure
 
-
+```bash
 Employee-tracking-system/
 ├── server/                 # Backend (Node/Express)
 │   ├── config/             # DB Configuration
@@ -145,12 +145,14 @@ npm install
 cd ..
 
 
-6. Run the ApplicationYou can run both servers concurrently:
+6. Run the Application
+You can run both servers concurrently:
 npm run dev
 
 Frontend: http://localhost:3000
 Backend: http://localhost:5000
 
 
-📝 Sample CredentialsUse these credentials to test the application after running
+📝 Sample Credentials
+Use these credentials to test the application after running
  npm run seed.

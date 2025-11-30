@@ -60,6 +60,10 @@ Data-driven tools for better decision-making.
 
 ---
 
+Here are some screenshorts of the project
+
+
+
 ## 🛠 Tech Stack
 
 | Domain | Technologies Used |

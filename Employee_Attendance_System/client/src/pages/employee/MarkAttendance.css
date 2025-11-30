@@ -1,0 +1,77 @@
+.attendance-card {
+  background: white;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.attendance-date h2 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.attendance-status {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.status-item:last-child {
+  border-bottom: none;
+}
+
+.status-label {
+  font-weight: 500;
+  color: #7f8c8d;
+}
+
+.status-value {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.attendance-actions {
+  margin-top: 30px;
+}
+
+.btn-large {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.completed-message {
+  padding: 20px;
+  background-color: #d4edda;
+  color: #155724;
+  border-radius: 8px;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+

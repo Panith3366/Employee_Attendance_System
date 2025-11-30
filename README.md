@@ -62,7 +62,11 @@ Data-driven tools for better decision-making.
 
 Here are some screenshorts of the project
 
-
+![image alt](https://github.com/Panith3366/Employee_Attendance_System/blob/e1186d251595b85aa7bc993665b6139d8cb686f0/Screenshorts/login.png)
+![image alt](https://github.com/Panith3366/Employee_Attendance_System/blob/e1186d251595b85aa7bc993665b6139d8cb686f0/Screenshorts/registration.png)
+![image alt](https://github.com/Panith3366/Employee_Attendance_System/blob/e1186d251595b85aa7bc993665b6139d8cb686f0/Screenshorts/dashboard.png)
+![image alt](https://github.com/Panith3366/Employee_Attendance_System/blob/e1186d251595b85aa7bc993665b6139d8cb686f0/Screenshorts/employee%20attendance%20in%20manager%20dashboard.png)
+![image alt](https://github.com/Panith3366/Employee_Attendance_System/blob/e1186d251595b85aa7bc993665b6139d8cb686f0/Screenshorts/reports.png)
 
 ## 🛠 Tech Stack
 

@@ -71,9 +71,20 @@ Data-driven tools for better decision-making.
 
 ---
 
+Demo Accounts
+
+Manager Account:
+Email: manager@example.com
+Password: manager123
+
+Employee Accounts:
+Email: alice@example.com 
+Password: employee123
+
+
 ## 📁 Project Structure
 
-```bash
+
 Employee-tracking-system/
 ├── server/                 # Backend (Node/Express)
 │   ├── config/             # DB Configuration
@@ -94,15 +105,19 @@ Employee-tracking-system/
 
 
 Installation & Setup
+
 Follow these steps to set up the project locally.
+
 1. PrerequisitesEnsure you have the following installed:
 Node.js (v14+)
 PostgreSQL (v12+)
 npm or yarn2.
 
 Clone the Repository
-git clone [https://github.com/your-username/Employee-tracking-system.git]
+git clone [https://github.com/Panith3366/Employee-tracking-system.git]
 cd Employee-tracking-system
+
+
 3. Backend SetupBash# Install dependencies
 npm install
 
@@ -113,6 +128,8 @@ npm install
 # DB_PASSWORD=your_password
 # DB_NAME=attendance_system
 # JWT_SECRET=your_super_secret_key
+
+
 4. Database InitializationBash# Create the database
 createdb attendance_system
 
@@ -121,12 +138,19 @@ npm run setup-db
 
 # Seed with sample data (Managers & Employees)
 npm run seed
+
+
 5. Frontend SetupBashcd client
 npm install
 cd ..
+
+
 6. Run the ApplicationYou can run both servers concurrently:
 npm run dev
+
 Frontend: http://localhost:3000
 Backend: http://localhost:5000
+
+
 📝 Sample CredentialsUse these credentials to test the application after running
  npm run seed.

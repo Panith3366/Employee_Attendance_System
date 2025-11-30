@@ -75,13 +75,13 @@ Data-driven tools for better decision-making.
 # Install dependencies
 npm install
 
-# Setup Environment Variables
-# Create a .env file in the root directory based on .env.example
-# DB_HOST=localhost
-# DB_USER=postgres
-# DB_PASSWORD=your_password
-# DB_NAME=attendance_system
-# JWT_SECRET=your_super_secret_key
+ Setup Environment Variables
+ Create a .env file in the root directory based on .env.example
+ DB_HOST=localhost
+ DB_USER=postgres
+ DB_PASSWORD=your_password
+ DB_NAME=attendance_system
+ JWT_SECRET=your_super_secret_key
 ---
 ##Database Initialization
 

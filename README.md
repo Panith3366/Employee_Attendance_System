@@ -71,22 +71,31 @@ Data-driven tools for better decision-making.
 
 ---
 
-## 📁 Project Structure
 
-```bash
-Employee-tracking-system/
-├── server/                 # Backend (Node/Express)
-│   ├── config/             # DB Configuration
-│   ├── middleware/         # Auth & Error handling
-│   ├── models/             # Sequelize/SQL Models
-│   ├── routes/             # API Endpoints
-│   ├── scripts/            # Seed & Setup scripts
-│   └── index.js            # Entry point
-├── client/                 # Frontend (React)
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # Employee & Manager Views
-│   │   ├── store/          # Redux State Management
-│   │   └── App.js          # Root Component
-├── .env.example            # Environment variables template
-└── README.md               # Documentation
+# Install dependencies
+npm install
+
+# Setup Environment Variables
+# Create a .env file in the root directory based on .env.example
+# DB_HOST=localhost
+# DB_USER=postgres
+# DB_PASSWORD=your_password
+# DB_NAME=attendance_system
+# JWT_SECRET=your_super_secret_key
+---
+##Database Initialization
+
+# Create the database
+createdb attendance_system
+
+# Initialize tables
+npm run setup-db
+
+# Seed with sample data (Managers & Employees)
+npm run seed
+
+
+cd client
+npm install
+cd ..
+

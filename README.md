@@ -71,21 +71,49 @@ Data-driven tools for better decision-making.
 
 ---
 
+## 📁 Project Structure
 
-# Install dependencies
+```bash
+Employee-tracking-system/
+├── server/                 # Backend (Node/Express)
+│   ├── config/             # DB Configuration
+│   ├── middleware/         # Auth & Error handling
+│   ├── models/             # Sequelize/SQL Models
+│   ├── routes/             # API Endpoints
+│   ├── scripts/            # Seed & Setup scripts
+│   └── index.js            # Entry point
+├── client/                 # Frontend (React)
+│   ├── src/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Employee & Manager Views
+│   │   ├── store/          # Redux State Management
+│   │   └── App.js          # Root Component
+├── .env.example            # Environment variables template
+└── README.md               # Documentation
+
+
+
+Installation & Setup
+Follow these steps to set up the project locally.
+1. PrerequisitesEnsure you have the following installed:
+Node.js (v14+)
+PostgreSQL (v12+)
+npm or yarn2.
+
+Clone the Repository
+git clone [https://github.com/your-username/Employee-tracking-system.git]
+cd Employee-tracking-system
+3. Backend SetupBash# Install dependencies
 npm install
 
- Setup Environment Variables
- Create a .env file in the root directory based on .env.example
- DB_HOST=localhost
- DB_USER=postgres
- DB_PASSWORD=your_password
- DB_NAME=attendance_system
- JWT_SECRET=your_super_secret_key
----
-##Database Initialization
-
-# Create the database
+# Setup Environment Variables
+# Create a .env file in the root directory based on .env.example
+# DB_HOST=localhost
+# DB_USER=postgres
+# DB_PASSWORD=your_password
+# DB_NAME=attendance_system
+# JWT_SECRET=your_super_secret_key
+4. Database InitializationBash# Create the database
 createdb attendance_system
 
 # Initialize tables
@@ -93,9 +121,12 @@ npm run setup-db
 
 # Seed with sample data (Managers & Employees)
 npm run seed
-
-
-cd client
+5. Frontend SetupBashcd client
 npm install
 cd ..
-
+6. Run the ApplicationYou can run both servers concurrently:
+npm run dev
+Frontend: http://localhost:3000
+Backend: http://localhost:5000
+📝 Sample CredentialsUse these credentials to test the application after running
+ npm run seed.
